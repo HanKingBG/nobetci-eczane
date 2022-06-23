@@ -1,0 +1,94 @@
+.app {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #505050;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+div {
+  padding: 0px;
+}
+input[type="date"] {
+  font-size: 20px;
+  width: 60%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.buton {
+  cursor: pointer;
+  font-size: 35px;
+  background: #0d9930;
+  border: 1px solid #0d9930;
+  color: #fff;
+  width: 300px;
+  border-radius: 20px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 350px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.label-container {
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
+}
+.label-container2 {
+  margin: 0px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+}
+.input-container {
+  align-items: center;
+}
+input[id="username"],
+input[id="password"] {
+  height: 40px;
+  width: 300px;
+  font-size: 25px;
+  font-weight: bold;
+}
+select {
+  font-size: 20px;
+  width: 30%;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+td {
+  color: #ffffff;
+  border: 2px solid #0057f8;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  color: rgb(0, 0, 0);
+  border: 2px solid #0057f8;
+  text-align: left;
+  padding: 8px;
+}
+tr:first-child {
+  background-color: #7a7a7a;
+}

@@ -1,0 +1,59 @@
+.app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #505050;
+    margin-left:100px;
+    margin-right:100px;
+}
+div{
+    margin-top: 10px;
+    border-radius: 25px;
+}
+.homeButon{
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 35px;
+    background: #0d9930;
+    border: 1px solid #0d9930;
+    color: #fff;
+    padding: 10px 20px;
+    width: 500px;
+    border-radius: 20px;
+    
+}
+.buton{
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 35px;
+    background: #0d9930;
+    border: 1px solid #0d9930;
+    color: #fff;
+    padding: 10px 20px;
+    width: 300px;
+    border-radius: 20px;
+    
+}
+.ortala{
+    display: flex;
+    justify-content: center;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.label-container {
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+img{
+    margin-top: 30px;
+    height: 200px;
+}

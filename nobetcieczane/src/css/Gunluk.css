@@ -1,0 +1,85 @@
+.app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #505050;
+    margin-left:100px;
+    margin-right:100px;
+
+}
+div{ 
+    padding:0px; 
+
+  } 
+body{
+    padding:0px;
+    margin:0px;
+
+ }
+ button {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    background: #07c7bd;
+    border: 1px solid #08b2c9;
+    color: #fff;
+    padding: 10px 20px;
+    width: 200px;
+    border-radius: 30px;
+    margin: 5px;
+    margin-left: 25%;
+  }
+ .buton {
+    cursor: pointer;
+    font-size: 35px;
+    background: #0d9930;
+    border: 1px solid #0d9930;
+    color: #fff;
+    width: 300px;
+    border-radius: 20px;
+  }
+a{
+    align-items: center;
+    justify-content: center;
+}
+.label1{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+}
+.label2{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.label3{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+h3{
+    height: 1px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.eczaneler{
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: rgb(115, 162, 223);
+    width: 400px;
+}
